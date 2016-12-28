@@ -1,0 +1,37 @@
+
+<div class="container">
+  <div class="menu">
+    <div class="row">
+      <div class="small-12 medium-6 large-6 columns">
+        {{#link-to 'index'}}
+          <div class="logo">
+            <div>Jessica Lombera</div>
+            <div class="title">Front-end Developer</div>
+          </div>
+        {{/link-to}}
+      </div>
+      <div class="small-12 medium-6 large-6 columns">
+        <div class="nav-links-container">
+          <div>
+            {{#link-to 'skills' class="nav-links"}}
+             Skills
+            {{/link-to}}
+          </div>
+          <div>
+            {{#link-to 'work'  class="nav-links"}}
+              Work
+            {{/link-to}}
+          </div>
+          <div>
+            {{#link-to 'about'  class="nav-links"}}
+              About
+            {{/link-to}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>

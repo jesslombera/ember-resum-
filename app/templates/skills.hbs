@@ -1,0 +1,9 @@
+{{outlet}}
+{{#each model as |skills|}}
+  <article class="listing">
+    <h3>{{skills.title}}</h3>
+     <div class="detail type">
+      <span>Type:</span> {{skills.type}}
+    </div>
+  </article>
+{{/each}}

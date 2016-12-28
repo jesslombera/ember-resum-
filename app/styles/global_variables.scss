@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+// Global Variables
+// -----------
+
+$main-font: 'Open Sans', sans-serif;
+$main-font-color: #3b4456; 
+$nav-font-color: #ffffff;
+
+
+// Breakpoints
+// -----------
+
+$xxsmall-breakpoint: 320px !default;
+$xsmall-breakpoint: 400px !default;
+$small-breakpoint:  640px !default;
+$medium-breakpoint: 1024px !default;
+$large-breakpoint:  1450px !default;
+$xlarge-breakpoint: 1800px !default;
+$xxlarge-breakpoint: 2000px !default;
+
+$xxsmall-only: (max-width: $xxsmall-breakpoint) !default;
+$xsmall-only: (max-width: $xsmall-breakpoint) !default;
+
+
+$small-only: (max-width: $small-breakpoint) !default;
+
+$medium-up: (min-width: $medium-breakpoint) !default;
+$medium-only: (min-width: $small-breakpoint) and (max-width: $medium-breakpoint) !default;
+
+$large-up: (min-width: $large-breakpoint) !default;
+$large-only: (min-width: $medium-breakpoint) and (max-width: $large-breakpoint) ;
+
+$xlarge-up: (min-width: $xlarge-breakpoint) !default;
+$xlarge-only: (min-width: $large-breakpoint) and (max-width: $xlarge-breakpoint) !default;
+
+$xxlarge-up: (min-width: $xxlarge-breakpoint) !default;
+$xxlarge-only: (min-width: $xlarge-breakpoint) and (max-width: $xxlarge-breakpoint) !default;

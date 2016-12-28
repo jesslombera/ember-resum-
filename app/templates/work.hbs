@@ -1,0 +1,23 @@
+{{outlet}}
+{{outlet}}
+{{#each model as |work|}}
+  <article class="listing">
+    <h3>{{work.title}}</h3>
+     <div class="detail type">
+      <span> {{work.city}}</span><span> {{work.year}}</span>
+    </div>
+    <div class="detail type">
+       {{work.type}}
+    </div>
+    <div>
+    {{#if work.projects}}
+        {{#each work.projects as |proj|}}
+            <div>{{proj.title}}</div>
+            <div>{{proj.description}}</div>
+            <div>{{proj.technologies}}</div>
+    	{{/each}}
+    {{/if}}
+    </div>
+ 
+  </article>
+{{/each}}
