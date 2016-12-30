@@ -1,9 +1,18 @@
 {{outlet}}
+
+	<div class="home-holder">
+		 	<div class="bio-content">
+		 		Skills!
+		 	</div>
+		 	<div class="bio-content holder">
+
+		 	</div>
+
 {{#each model as |skills|}}
-  <article class="listing">
-    <h3>{{skills.title}}</h3>
-     <div class="detail type">
-      <span>Type:</span> {{skills.type}}
+    <div class="skills-holder">
+    	<h3 class="project-title">{{skills.title}}</h3>
+      <div class="project-tech">{{skills.type}}</div>
     </div>
-  </article>
 {{/each}}
+
+	</div>

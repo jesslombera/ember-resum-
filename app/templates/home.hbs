@@ -1,8 +1,6 @@
 {{outlet}}
 <div class="home-container">
 	<div class="home-holder">
-		<div class="row">
-		 <div class="small-12 medium-12 large-12 columns">
 		 	<div class="bio-content">
 		 		Responsive Front-end Development
 		 	</div>
@@ -11,10 +9,6 @@
 		 			<div class="sub-bio">{{home.title}}</div>
 		 		{{/each}}
 		 	</div>
-		 </div>
-		</div>
-
-
 	</div>
 	<div class="home-holder bio">
 		<div class="row">
@@ -25,8 +19,14 @@
 				 </div>
 			</div>
 			 <div class="small-12 medium-6 large-6 columns">
-			 <div>{{#link-to 'skills'}}Skills{{/link-to}}</div>
-			 <div>{{#link-to 'skills'}}Work{{/link-to}}</div>
+			 <div class="icon-holder">
+			 		<div class="skills-icon"></div>
+			 		<div>{{#link-to 'skills'}}Skills{{/link-to}}</div>
+			 </div>
+			 	<div class="icon-holder work">
+			 		<div class="work-icon"></div>
+			 		<div>{{#link-to 'work'}}Work{{/link-to}}</div>
+			 </div>
 			</div>
 		</div>
 	</div>

@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 	let skills = [{
 		id: 'languages',
-		title: 'languages',
+		title: 'LANGUAGES',
 		type: 'JavaScript/ES6, React, jQuery, HTML, CSS, SASS'
 	}, {
 		id: 'frameworks',

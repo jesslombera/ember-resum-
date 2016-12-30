@@ -6,6 +6,10 @@
 $main-font: 'Open Sans', sans-serif;
 $main-font-color: #3b4456; 
 $nav-font-color: #ffffff;
+$xsmall-font: 18px;
+$small-font: 24px;
+$medium-font: 36px;
+$large-font: 48px;
 
 
 // Breakpoints
@@ -36,3 +40,23 @@ $xlarge-only: (min-width: $large-breakpoint) and (max-width: $xlarge-breakpoint)
 
 $xxlarge-up: (min-width: $xxlarge-breakpoint) !default;
 $xxlarge-only: (min-width: $xlarge-breakpoint) and (max-width: $xxlarge-breakpoint) !default;
+
+.skills-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E %3Ctitle%3E post-icon-nav %3C/title%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cpath d='M36.609 21.233l-10.03 10.03v2.665c0 .266.22.493.493.493h2.665l10.03-10.03-3.158-3.158zm1.414-1.414l.4-.4a2.009 2.009 0 0 1 2.832-.006l.332.332c.78.78.773 2.053-.006 2.832l-.4.4-3.158-3.158z' fill='%232098d1'/%3E %3Cpath d='M22.421 42H40.105a1.895 1.895 0 0 0 0-3.79h-20.21a1.895 1.895 0 0 1 0-3.789h3.158' stroke='%232098d1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E %3C/g%3E %3C/svg%3E ");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px; 
+  background-size: contain;
+}
+
+.work-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E %3Ctitle%3E leaning-confirming-emoji-white %3C/title%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cg stroke='%232098d1'%3E %3Cpath d='M24 20c-.565 2.853-3.036 5-6 5s-5.436-2.148-6-5' stroke-linecap='round' stroke-linejoin='round'/%3E %3Ccircle fill-opacity='.15' fill='%23FFF' cx='18' cy='18' r='10'/%3E %3C/g%3E %3C/g%3E %3C/svg%3E ");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px; 
+  background-size: contain;
+}
+
+
+
+

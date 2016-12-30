@@ -1,23 +1,24 @@
 {{outlet}}
-{{outlet}}
+  <div class="bio-content">
+    Work and Projects
+  </div>
 {{#each model as |work|}}
-  <article class="listing">
-    <h3>{{work.title}}</h3>
-     <div class="detail type">
+  <div class="skills-holder">
+    <h3 class="project-title">{{work.title}}</h3>
+     <div class="project-description date">
       <span> {{work.city}}</span><span> {{work.year}}</span>
     </div>
-    <div class="detail type">
+    <div class="project-tech">
        {{work.type}}
     </div>
     <div>
     {{#if work.projects}}
         {{#each work.projects as |proj|}}
-            <div>{{proj.title}}</div>
-            <div>{{proj.description}}</div>
-            <div>{{proj.technologies}}</div>
+            <div class="project-title">{{proj.title}}</div>
+            <div class="project-tech">{{proj.description}}</div>
+            <span>Technologies:</span><span class="project-description">{{proj.technologies}}</span>
     	{{/each}}
     {{/if}}
     </div>
- 
-  </article>
+  </div>
 {{/each}}

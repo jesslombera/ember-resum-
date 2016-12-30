@@ -16,12 +16,6 @@ import Ember from 'ember';
 	},  {
 		id: 'css',
 		title: 'CSS',
-	},  {
-		id: 'mid3',
-		title: '-',
-	},  {
-		id: 'jquery',
-		title: 'jQuery',
 	}];
 
 export default Ember.Route.extend({
