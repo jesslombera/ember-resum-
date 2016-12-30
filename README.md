@@ -1,8 +1,6 @@
 # resume-project
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
+This is my interactive web résumé project built in ember. To view, please `git clone` this repo and run `ember server`
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
